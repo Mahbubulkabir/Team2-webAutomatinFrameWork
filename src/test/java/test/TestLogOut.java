@@ -10,6 +10,7 @@ import pages.LogOut;
 import utility.ReadFromExel;
 
 public class TestLogOut extends CommonAPI {
+
     Logger LOG = LogManager.getLogger(TestLogOut.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automationFinalbootcamp-Mahbubul\\data\\data.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");

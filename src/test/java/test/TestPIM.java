@@ -10,6 +10,7 @@ import pages.PimPage;
 import utility.ReadFromExel;
 
 public class TestPIM extends CommonAPI {
+
     Logger LOG = LogManager.getLogger(TestPIM.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automationFinalbootcamp-Mahbubul\\data\\data.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");

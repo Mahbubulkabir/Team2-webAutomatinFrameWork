@@ -11,6 +11,7 @@ import utility.ReadFromExel;
 import utility.Utility;
 
 public class TestPostComments extends CommonAPI {
+
     Logger LOG = LogManager.getLogger(TestPostComments.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automationFinalbootcamp-Mahbubul\\data\\data.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");

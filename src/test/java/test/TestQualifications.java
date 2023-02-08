@@ -10,6 +10,7 @@ import pages.LogInPage;
 import pages.Qualifications;
 import utility.ReadFromExel;
 
+
 public class TestQualifications extends CommonAPI {
     Logger LOG = LogManager.getLogger(TestQualifications.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automationFinalbootcamp-Mahbubul\\data\\data.xlsx", "test data");

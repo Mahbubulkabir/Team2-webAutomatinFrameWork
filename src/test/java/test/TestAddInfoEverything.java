@@ -11,6 +11,7 @@ import pages.LogInPage;
 import utility.ReadFromExel;
 
 public class TestAddInfoEverything extends CommonAPI {
+
     Logger LOG = LogManager.getLogger(TestAddInfoEverything.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automationFinalbootcamp-Mahbubul\\data\\data.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");

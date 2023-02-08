@@ -10,7 +10,6 @@ import pages.ManageReviews;
 import utility.ReadFromExel;
 
 public class TestManagerReviews extends CommonAPI {
-
     Logger LOG = LogManager.getLogger(TestManagerReviews.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automationFinalbootcamp-Mahbubul\\data\\data.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");

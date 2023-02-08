@@ -11,6 +11,7 @@ import pages.MostLikePost;
 import utility.ReadFromExel;
 
 public class TestMostLikePost extends CommonAPI {
+
     Logger LOG = LogManager.getLogger(TestMostLikePost.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automationFinalbootcamp-Mahbubul\\data\\data.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");
