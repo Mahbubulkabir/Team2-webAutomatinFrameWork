@@ -31,7 +31,6 @@ import java.util.Calendar;
 import java.util.Date;
 
 
-
 public class CommonAPI {
 
     Logger LOG = LogManager.getLogger(CommonAPI.class.getName());

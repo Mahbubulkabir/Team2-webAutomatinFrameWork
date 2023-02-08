@@ -11,7 +11,17 @@
     <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"></parameter>
     <test name="orangehrm tests">
         <classes>
-                        <class name="test.TestLogIn"></class>
+<!--            <class name="test.TestLogIn"></class>-->
+<!--            <class name="test.TestAddInfoEverything"></class>-->
+            <class name="test.TestPIM"></class>
+<!--            <class name="test.TestQualifications"></class>-->
+<!--            <class name="test.TestManagerReviews"></class>-->
+<!--            <class name="test.TestReportsOfQAEngineers"></class>-->
+<!--            <class name="test.TestTimeSheets"></class>-->
+<!--            <class name="test.TestLogOut"></class>-->
+<!--            <class name="test.TestPostComments"></class>-->
+<!--            <class name="test.TestMostLikePost"></class>-->
+<!--            <class name="test.TestTimeFunctionAll"></class>-->
         </classes>
     </test>
 </suite>
